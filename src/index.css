@@ -142,10 +142,12 @@ button {
   display: flex;
   justify-content: center;
   padding-top: 4px;
+  gap: 20px;
 }
 
 .footer a {
-  color: var(--accent);
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .footer__version {
