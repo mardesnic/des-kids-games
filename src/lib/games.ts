@@ -72,7 +72,7 @@ export const GAMES: Game[] = [
       hr: 'Pomozi vatri, vodi, zemlji i zraku do kuće.',
     },
     colour: '#6741d9',
-    ready: false,
+    ready: true,
   },
   {
     slug: 'words',
