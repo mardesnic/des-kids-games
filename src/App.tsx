@@ -10,16 +10,13 @@ import {
   type Strings,
 } from './lib/i18n';
 import { popMenu, pushMenu, useBackButton } from './lib/use-back-button';
-import { useSettings } from './lib/use-settings';
+import { useLanguage } from './lib/use-language';
 
-type Settings = { language: Language };
 type View = 'list' | 'settings';
 
 export default function App() {
-  const [settings, setSettings] = useSettings<Settings>('des-kids-games', {
-    language: 'auto',
-  });
-  const lang = settings.language === 'auto' ? detectLang() : settings.language;
+  const [language, setLanguage] = useLanguage();
+  const lang = language === 'auto' ? detectLang() : language;
   const t = STRINGS[lang];
   useEffect(() => {
     document.documentElement.lang = lang;
@@ -63,11 +60,7 @@ export default function App() {
           ))}
         </main>
       ) : (
-        <SettingsView
-          language={settings.language}
-          setLanguage={(language) => setSettings({ language })}
-          t={t}
-        />
+        <SettingsView language={language} setLanguage={setLanguage} t={t} />
       )}
     </div>
   );
