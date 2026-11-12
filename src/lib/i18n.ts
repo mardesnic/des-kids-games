@@ -27,6 +27,7 @@ const en = {
     'Android (Chrome): open the ⋮ menu and tap Install app or Add to Home screen.',
   installIos: 'iPhone or iPad (Safari): tap Share, then Add to Home Screen.',
   source: 'Source code',
+  version: 'Version',
 };
 
 export type Strings = typeof en;
@@ -46,6 +47,7 @@ const hr: Strings = {
   installIos:
     'iPhone ili iPad (Safari): dodirni Dijeli, pa Dodaj na početni zaslon.',
   source: 'Izvorni kod',
+  version: 'Verzija',
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, hr };

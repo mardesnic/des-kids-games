@@ -138,6 +138,7 @@ button {
 }
 
 .footer {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   padding-top: 4px;
@@ -145,6 +146,13 @@ button {
 
 .footer a {
   color: var(--accent);
+}
+
+.footer__version {
+  flex-basis: 100%;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .muted {
