@@ -104,7 +104,6 @@ function SettingsView({
         <h2>{t.install}</h2>
         <p>{t.installAndroid}</p>
         <p>{t.installIos}</p>
-        <p className='muted'>{t.installNote}</p>
       </section>
 
       <footer className='footer'>

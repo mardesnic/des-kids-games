@@ -23,7 +23,6 @@ const en = {
   installAndroid:
     'Android (Chrome): open the ⋮ menu and tap Install app or Add to Home screen.',
   installIos: 'iPhone or iPad (Safari): tap Share, then Add to Home Screen.',
-  installNote: 'Then every game opens from one icon.',
   source: 'Source code',
 };
 
@@ -40,7 +39,6 @@ const hr: Strings = {
     'Android (Chrome): otvori izbornik ⋮ i dodirni Instaliraj aplikaciju ili Dodaj na početni zaslon.',
   installIos:
     'iPhone ili iPad (Safari): dodirni Dijeli, pa Dodaj na početni zaslon.',
-  installNote: 'Tada se sve igre otvaraju s jedne ikone.',
   source: 'Izvorni kod',
 };
 
