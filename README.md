@@ -1,4 +1,4 @@
-# Kids' games
+# Games
 
 All my free games for young kids on one page. Each card opens a game: spelling, shapes, puzzles, numbers and music. Every game works offline, with no timer, no way to lose and no ads.
 
@@ -14,7 +14,9 @@ On your phone, open it and choose **Add to Home Screen** (Safari) or **Install a
 - Only finished games are shown
 - A game opens in the same window, and Back comes back to the list
 - Each game keeps working offline once it has been opened
-- In English and Croatian, following the phone's language unless you pick one
+- Settings show how to install it on a phone
+- In English and Croatian, following the phone's language unless you pick one in Settings
+- The phone's Back button closes Settings
 - Light and dark mode
 - No ads, accounts or tracking
 

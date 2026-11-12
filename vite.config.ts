@@ -15,8 +15,8 @@ export default defineConfig({
         // A fixed id of its own, so a phone never mixes it up with an earlier
         // install or with the games on this site.
         id: 'des-kids-games',
-        name: "Kids' games",
-        short_name: "Kids' games",
+        name: 'Games',
+        short_name: 'Games',
         description: 'Free games for kids that work offline',
         theme_color: '#1971c2',
         background_color: '#f4f5f7',
