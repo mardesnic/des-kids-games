@@ -11,18 +11,9 @@ export type Game = {
   ready: boolean;
 };
 
-// In the order the cards are shown: the easiest to pick up first.
+// In the order the cards are shown, from the easiest to the hardest: what a
+// child needs to know to start (reading, sums) and how hard the easiest level is.
 export const GAMES: Game[] = [
-  {
-    slug: 'words',
-    name: { en: 'Words', hr: 'Riječi' },
-    about: {
-      en: 'Spell the word, letter by letter.',
-      hr: 'Složi riječ slovo po slovo.',
-    },
-    colour: '#6b4fd8',
-    ready: true,
-  },
   {
     slug: 'shapes',
     name: { en: 'Shapes', hr: 'Oblici' },
@@ -44,13 +35,13 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
-    slug: 'robot',
-    name: { en: 'Robot', hr: 'Robot' },
+    slug: 'echo',
+    name: { en: 'Echo', hr: 'Jeka' },
     about: {
-      en: 'Get the robot to the battery.',
-      hr: 'Dovedi robota do baterije.',
+      en: 'Remember the song as it grows.',
+      hr: 'Zapamti pjesmu dok raste.',
     },
-    colour: '#f08a24',
+    colour: '#7c4dcc',
     ready: true,
   },
   {
@@ -64,6 +55,16 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
+    slug: 'robot',
+    name: { en: 'Robot', hr: 'Robot' },
+    about: {
+      en: 'Get the robot to the battery.',
+      hr: 'Dovedi robota do baterije.',
+    },
+    colour: '#f08a24',
+    ready: true,
+  },
+  {
     slug: 'elementals',
     name: { en: 'Elementals', hr: 'Elementals' },
     about: {
@@ -74,23 +75,13 @@ export const GAMES: Game[] = [
     ready: false,
   },
   {
-    slug: 'echo',
-    name: { en: 'Echo', hr: 'Jeka' },
+    slug: 'words',
+    name: { en: 'Words', hr: 'Riječi' },
     about: {
-      en: 'Remember the song as it grows.',
-      hr: 'Zapamti pjesmu dok raste.',
+      en: 'Spell the word, letter by letter.',
+      hr: 'Složi riječ slovo po slovo.',
     },
-    colour: '#7c4dcc',
-    ready: true,
-  },
-  {
-    slug: 'crossmath',
-    name: { en: 'Crossmath', hr: 'Križmatka' },
-    about: {
-      en: 'Fill in the numbers so every sum is right.',
-      hr: 'Upiši brojeve da svaki račun bude točan.',
-    },
-    colour: '#d6336c',
+    colour: '#6b4fd8',
     ready: true,
   },
   {
@@ -111,6 +102,16 @@ export const GAMES: Game[] = [
       hr: 'Svaki broj jednom u svakom retku i stupcu.',
     },
     colour: '#3056d3',
+    ready: true,
+  },
+  {
+    slug: 'crossmath',
+    name: { en: 'Crossmath', hr: 'Križmatka' },
+    about: {
+      en: 'Fill in the numbers so every sum is right.',
+      hr: 'Upiši brojeve da svaki račun bude točan.',
+    },
+    colour: '#d6336c',
     ready: true,
   },
 ];
