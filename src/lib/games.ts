@@ -75,16 +75,6 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
-    slug: 'words',
-    name: { en: 'Words', hr: 'Riječi' },
-    about: {
-      en: 'Spell the word, letter by letter.',
-      hr: 'Složi riječ slovo po slovo.',
-    },
-    colour: '#6b4fd8',
-    ready: true,
-  },
-  {
     slug: 'pixeldoku',
     name: { en: 'Pixeldoku', hr: 'Pikseldoku' },
     about: {
@@ -102,6 +92,16 @@ export const GAMES: Game[] = [
       hr: 'Svaki broj jednom u svakom retku i stupcu.',
     },
     colour: '#3056d3',
+    ready: true,
+  },
+  {
+    slug: 'words',
+    name: { en: 'Words', hr: 'Riječi' },
+    about: {
+      en: 'Spell the word, letter by letter.',
+      hr: 'Složi riječ slovo po slovo.',
+    },
+    colour: '#6b4fd8',
     ready: true,
   },
   {
