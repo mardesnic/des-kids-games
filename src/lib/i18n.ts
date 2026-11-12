@@ -19,6 +19,9 @@ const en = {
   done: 'Done',
   language: 'Language',
   automatic: 'Automatic',
+  sound: 'Sound and vibration',
+  on: 'On',
+  off: 'Off',
   install: 'Install on your phone',
   installAndroid:
     'Android (Chrome): open the ⋮ menu and tap Install app or Add to Home screen.',
@@ -34,6 +37,9 @@ const hr: Strings = {
   done: 'Gotovo',
   language: 'Jezik',
   automatic: 'Automatski',
+  sound: 'Zvuk i vibracija',
+  on: 'Uključeno',
+  off: 'Isključeno',
   install: 'Instaliraj na mobitel',
   installAndroid:
     'Android (Chrome): otvori izbornik ⋮ i dodirni Instaliraj aplikaciju ili Dodaj na početni zaslon.',

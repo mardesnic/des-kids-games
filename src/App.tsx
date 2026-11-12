@@ -10,12 +10,13 @@ import {
   type Strings,
 } from './lib/i18n';
 import { popMenu, pushMenu, useBackButton } from './lib/use-back-button';
-import { useLanguage } from './lib/use-language';
+import { useLanguage, useSound } from './lib/use-shared-settings';
 
 type View = 'list' | 'settings';
 
 export default function App() {
   const [language, setLanguage] = useLanguage();
+  const [sound, setSound] = useSound();
   const lang = language === 'auto' ? detectLang() : language;
   const t = STRINGS[lang];
   useEffect(() => {
@@ -60,7 +61,13 @@ export default function App() {
           ))}
         </main>
       ) : (
-        <SettingsView language={language} setLanguage={setLanguage} t={t} />
+        <SettingsView
+          language={language}
+          setLanguage={setLanguage}
+          sound={sound}
+          setSound={setSound}
+          t={t}
+        />
       )}
     </div>
   );
@@ -69,10 +76,14 @@ export default function App() {
 function SettingsView({
   language,
   setLanguage,
+  sound,
+  setSound,
   t,
 }: {
   language: Language;
   setLanguage: (l: Language) => void;
+  sound: boolean;
+  setSound: (on: boolean) => void;
   t: Strings;
 }) {
   const languages: Language[] = ['auto', ...LANGS];
@@ -88,6 +99,21 @@ function SettingsView({
               onClick={() => setLanguage(l)}
             >
               {l === 'auto' ? t.automatic : LANG_NAMES[l]}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className='card'>
+        <h2>{t.sound}</h2>
+        <div className='segmented'>
+          {[true, false].map((on) => (
+            <button
+              key={String(on)}
+              aria-pressed={sound === on}
+              onClick={() => setSound(on)}
+            >
+              {on ? t.on : t.off}
             </button>
           ))}
         </div>
