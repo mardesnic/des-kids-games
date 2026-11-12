@@ -46,12 +46,19 @@ export default defineConfig({
         scope: '/',
       },
       workbox: {
-        // Keep the games' icons, so the cards look right offline too.
+        // Keep the games' icons, so the cards look right offline too. Online,
+        // each icon is checked with its game first (a quick "not changed"
+        // most times), so a game's new icon shows on the next open instead
+        // of after one more; the kept copy is used only offline.
         runtimeCaching: [
           {
             urlPattern: /\/des-[a-z-]+\/favicon\.svg$/,
-            handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'game-icons' },
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'game-icons',
+              networkTimeoutSeconds: 3,
+              fetchOptions: { cache: 'no-cache' },
+            },
           },
         ],
       },
