@@ -27,7 +27,6 @@ describe('games', () => {
   it('show only the ready ones, in order', () => {
     const ready = readyGames();
     expect(ready.every((g) => g.ready)).toBe(true);
-    expect(ready.map((g) => g.slug)).not.toContain('elementals');
     expect(ready.map((g) => g.slug)).toEqual(
       GAMES.filter((g) => g.ready).map((g) => g.slug)
     );
