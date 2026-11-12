@@ -18,7 +18,7 @@ export const GAMES: Game[] = [
     name: { en: 'Words', hr: 'Riječi' },
     about: {
       en: 'Spell the word for the picture.',
-      hr: 'Složi riječ za sliku.',
+      hr: 'Složi riječ slovo po slovo.',
     },
     colour: '#6b4fd8',
     ready: true,
@@ -77,15 +77,15 @@ export const GAMES: Game[] = [
     slug: 'echo',
     name: { en: 'Echo', hr: 'Jeka' },
     about: {
-      en: 'A music memory game for two.',
-      hr: 'Glazbena igra pamćenja za dvoje.',
+      en: 'Remember the song as it grows.',
+      hr: 'Zapamti pjesmu koja sve više raste.',
     },
     colour: '#7c4dcc',
     ready: true,
   },
   {
     slug: 'crossmath',
-    name: { en: 'Crossmath', hr: 'Računska križaljka' },
+    name: { en: 'Crossmath', hr: 'Križmatka' },
     about: {
       en: 'Fill in the numbers so every sum is right.',
       hr: 'Upiši brojeve da svaki račun bude točan.',
