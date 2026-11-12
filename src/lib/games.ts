@@ -66,7 +66,7 @@ export const GAMES: Game[] = [
   },
   {
     slug: 'elementals',
-    name: { en: 'Elementals', hr: 'Elementals' },
+    name: { en: 'Elements', hr: 'Elementi' },
     about: {
       en: 'Help fire, water, earth and air get home.',
       hr: 'Pomozi vatri, vodi, zemlji i zraku do kuće.',
