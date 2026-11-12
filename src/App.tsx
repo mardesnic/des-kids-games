@@ -10,13 +10,13 @@ import {
   type Strings,
 } from './lib/i18n';
 import { popMenu, pushMenu, useBackButton } from './lib/use-back-button';
-import { useStoredState } from './lib/use-stored-state';
+import { useSettings } from './lib/use-settings';
 
 type Settings = { language: Language };
 type View = 'list' | 'settings';
 
 export default function App() {
-  const [settings, setSettings] = useStoredState<Settings>('des-kids-games', {
+  const [settings, setSettings] = useSettings<Settings>('des-kids-games', {
     language: 'auto',
   });
   const lang = settings.language === 'auto' ? detectLang() : settings.language;
