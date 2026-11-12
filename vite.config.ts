@@ -17,7 +17,7 @@ export default defineConfig({
         id: 'des-kids-games',
         name: 'Games',
         short_name: 'Games',
-        description: 'Free games for kids that work offline',
+        description: 'Free games for kids',
         theme_color: '#1971c2',
         background_color: '#f4f5f7',
         display: 'standalone',
