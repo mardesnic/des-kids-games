@@ -11,7 +11,7 @@ import { useStoredState } from './lib/use-stored-state';
 type Settings = { language: Language };
 
 export default function App() {
-  const [settings, setSettings] = useStoredState<Settings>('des-games', {
+  const [settings, setSettings] = useStoredState<Settings>('des-kids-games', {
     language: 'auto',
   });
   const lang = settings.language === 'auto' ? detectLang() : settings.language;

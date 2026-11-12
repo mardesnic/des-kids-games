@@ -14,8 +14,8 @@ export function detectLang(): Lang {
 }
 
 const en = {
-  title: 'Games',
-  intro: 'Free games for kids. They work offline, with no ads.',
+  title: "Kids' games",
+  intro: 'Free, they work offline, and there are no ads.',
   language: 'Language',
   automatic: 'Automatic',
 };
@@ -23,8 +23,8 @@ const en = {
 export type Strings = typeof en;
 
 const hr: Strings = {
-  title: 'Igre',
-  intro: 'Besplatne igre za djecu. Rade i bez interneta, bez reklama.',
+  title: 'Dječje igre',
+  intro: 'Besplatne su, rade i bez interneta i nemaju reklama.',
   language: 'Jezik',
   automatic: 'Automatski',
 };

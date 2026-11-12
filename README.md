@@ -1,10 +1,10 @@
-# Games
+# Kids' games
 
 All my free games for young kids on one page. Each card opens a game: spelling, shapes, puzzles, numbers and music. Every game works offline, with no timer, no way to lose and no ads.
 
 ## Demo
 
-Check out the live demo at: https://mardesnic.github.io/des-games/
+Check out the live demo at: https://mardesnic.github.io/des-kids-games/
 
 On your phone, open it and choose **Add to Home Screen** (Safari) or **Install app** (Chrome). Then one icon on the home screen opens every game: a game opened from a card stays in the same window, and Back comes back to the list.
 
