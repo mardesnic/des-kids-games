@@ -22,7 +22,6 @@ export default function App() {
     <div className='app' lang={lang}>
       <header>
         <h1>{t.title}</h1>
-        <p className='muted'>{t.intro}</p>
       </header>
 
       <main className='games'>
