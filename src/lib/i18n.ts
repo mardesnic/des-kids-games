@@ -16,7 +16,7 @@ export function detectLang(): Lang {
 const en = {
   title: 'Games',
   settings: 'Settings',
-  done: 'Done',
+  close: 'Close',
   language: 'Language',
   automatic: 'Automatic',
   sound: 'Sound and vibration',
@@ -35,7 +35,7 @@ export type Strings = typeof en;
 const hr: Strings = {
   title: 'Igre',
   settings: 'Postavke',
-  done: 'Gotovo',
+  close: 'Zatvori',
   language: 'Jezik',
   automatic: 'Automatski',
   sound: 'Zvuk i vibracija',

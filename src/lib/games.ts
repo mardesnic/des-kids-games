@@ -55,13 +55,13 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
-    slug: 'robot',
-    name: { en: 'Robot', hr: 'Robot' },
+    slug: 'paint',
+    name: { en: 'Paint', hr: 'Boje' },
     about: {
-      en: 'Get the robot to the battery.',
-      hr: 'Dovedi robota do baterije.',
+      en: 'Mix drops of paint to make a colour.',
+      hr: 'Miješaj kapi boje da dobiješ zadanu boju.',
     },
-    colour: '#f08a24',
+    colour: '#9b3fb5',
     ready: true,
   },
   {
@@ -72,6 +72,16 @@ export const GAMES: Game[] = [
       hr: 'Stavi voće na vagu dok ne bude ravna.',
     },
     colour: '#a86400',
+    ready: true,
+  },
+  {
+    slug: 'robot',
+    name: { en: 'Robot', hr: 'Robot' },
+    about: {
+      en: 'Get the robot to the battery.',
+      hr: 'Dovedi robota do baterije.',
+    },
+    colour: '#f08a24',
     ready: true,
   },
   {
