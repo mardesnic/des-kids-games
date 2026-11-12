@@ -36,13 +36,38 @@ export default function App() {
   return (
     <div className='app'>
       <header className='header'>
-        <h1>{t.title}</h1>
-        <button
-          className='button'
-          onClick={() => setView(view === 'list' ? 'settings' : 'list')}
-        >
-          {view === 'list' ? t.settings : t.done}
-        </button>
+        <div className='header__title'>
+          <img
+            className='header__icon'
+            src={`${import.meta.env.BASE_URL}favicon.svg`}
+            alt=''
+          />
+          <h1>{t.title}</h1>
+        </div>
+        {view === 'list' ? (
+          <button
+            className='button button--icon'
+            onClick={() => setView('settings')}
+            aria-label={t.settings}
+          >
+            <svg
+              className='icon'
+              viewBox='0 0 24 24'
+              fill='none'
+              stroke='currentColor'
+              strokeWidth='2'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              aria-hidden='true'
+            >
+              <path d='M20 7h-9M14 17H5M14 17a3 3 0 1 0 6 0 3 3 0 1 0-6 0M4 7a3 3 0 1 0 6 0 3 3 0 1 0-6 0' />
+            </svg>
+          </button>
+        ) : (
+          <button className='button' onClick={() => setView('list')}>
+            {t.done}
+          </button>
+        )}
       </header>
 
       {view === 'list' ? (

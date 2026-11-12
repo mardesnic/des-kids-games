@@ -64,19 +64,47 @@ button {
 
 /* The title in the middle, the button on the right. */
 .header {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
 }
 
+/* The same as the header of every game. */
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.header__icon {
+  flex: none;
+  width: clamp(32px, 10vw, 40px);
+  height: clamp(32px, 10vw, 40px);
+  border-radius: 25%;
+}
+
 .header h1 {
-  grid-column: 2;
-  font-size: 2rem;
+  font-size: clamp(1.1rem, 5vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
   color: var(--text);
 }
 
-.header .button {
+.button--icon {
+  display: grid;
+  place-items: center;
+  padding: 7px 12px;
+}
+
+.button--icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.button {
   justify-self: end;
 }
 
