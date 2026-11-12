@@ -15,7 +15,7 @@ export function detectLang(): Lang {
 
 const en = {
   title: "Kids' games",
-  intro: 'Free, they work offline, and there are no ads.',
+  intro: "They're free, work offline and have no ads.",
   language: 'Language',
   automatic: 'Automatic',
 };

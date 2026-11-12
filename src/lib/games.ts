@@ -17,7 +17,7 @@ export const GAMES: Game[] = [
     slug: 'words',
     name: { en: 'Words', hr: 'Riječi' },
     about: {
-      en: 'Spell the word for the picture.',
+      en: 'Spell the word, letter by letter.',
       hr: 'Složi riječ slovo po slovo.',
     },
     colour: '#6b4fd8',
@@ -27,7 +27,7 @@ export const GAMES: Game[] = [
     slug: 'shapes',
     name: { en: 'Shapes', hr: 'Oblici' },
     about: {
-      en: 'Fit the pieces into the outline.',
+      en: 'Put the pieces into the outline.',
       hr: 'Složi dijelove u obris.',
     },
     colour: '#2b8a3e',
@@ -37,8 +37,8 @@ export const GAMES: Game[] = [
     slug: 'pairs',
     name: { en: 'Pairs', hr: 'Parovi' },
     about: {
-      en: 'Join the dots of the same colour.',
-      hr: 'Spoji točkice iste boje.',
+      en: 'Join the dots and fill the board.',
+      hr: 'Spoji točkice i popuni ploču.',
     },
     colour: '#8a4fd6',
     ready: true,
@@ -47,7 +47,7 @@ export const GAMES: Game[] = [
     slug: 'robot',
     name: { en: 'Robot', hr: 'Robot' },
     about: {
-      en: 'Guide the robot to its battery.',
+      en: 'Get the robot to its battery.',
       hr: 'Dovedi robota do baterije.',
     },
     colour: '#f08a24',
@@ -57,7 +57,7 @@ export const GAMES: Game[] = [
     slug: 'blocks',
     name: { en: 'Blocks', hr: 'Blokovi' },
     about: {
-      en: 'Slide the blocks to free the star.',
+      en: 'Move the blocks and free the star.',
       hr: 'Pomakni blokove i oslobodi zvijezdu.',
     },
     colour: '#0f8a7a',
@@ -78,7 +78,7 @@ export const GAMES: Game[] = [
     name: { en: 'Echo', hr: 'Jeka' },
     about: {
       en: 'Remember the song as it grows.',
-      hr: 'Zapamti pjesmu koja sve više raste.',
+      hr: 'Zapamti pjesmu dok raste.',
     },
     colour: '#7c4dcc',
     ready: true,
@@ -97,7 +97,7 @@ export const GAMES: Game[] = [
     slug: 'pixeldoku',
     name: { en: 'Pixeldoku', hr: 'Pikseldoku' },
     about: {
-      en: 'Colour the squares to find the picture.',
+      en: 'Colour the squares and find the picture.',
       hr: 'Oboji kvadratiće i otkrij sliku.',
     },
     colour: '#c2255c',
