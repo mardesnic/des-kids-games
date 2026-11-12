@@ -65,6 +65,16 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
+    slug: 'balance',
+    name: { en: 'Balance', hr: 'Vaga' },
+    about: {
+      en: 'Put fruit on the scale until it is level.',
+      hr: 'Stavi voće na vagu dok ne bude ravna.',
+    },
+    colour: '#a86400',
+    ready: true,
+  },
+  {
     slug: 'elements',
     name: { en: 'Elements', hr: 'Elementi' },
     about: {
