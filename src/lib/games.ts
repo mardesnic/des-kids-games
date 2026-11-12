@@ -47,7 +47,7 @@ export const GAMES: Game[] = [
     slug: 'robot',
     name: { en: 'Robot', hr: 'Robot' },
     about: {
-      en: 'Get the robot to its battery.',
+      en: 'Get the robot to the battery.',
       hr: 'Dovedi robota do baterije.',
     },
     colour: '#f08a24',
