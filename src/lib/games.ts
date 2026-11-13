@@ -105,6 +105,16 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
+    slug: 'pipes',
+    name: { en: 'Pipes', hr: 'Cijevi' },
+    about: {
+      en: 'Turn the pipes so the water reaches the flower.',
+      hr: 'Okreni cijevi da voda dođe do cvijeta.',
+    },
+    colour: '#5c940d',
+    ready: true,
+  },
+  {
     slug: 'robot',
     name: { en: 'Robot', hr: 'Robot' },
     about: {
