@@ -25,6 +25,16 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
+    slug: 'pattern',
+    name: { en: 'Pattern', hr: 'Uzorak' },
+    about: {
+      en: 'Remember the lit squares and tap them.',
+      hr: 'Zapamti upaljena polja i dodirni ih.',
+    },
+    colour: '#0b7285',
+    ready: true,
+  },
+  {
     slug: 'shapes',
     name: { en: 'Shapes', hr: 'Oblici' },
     about: {
