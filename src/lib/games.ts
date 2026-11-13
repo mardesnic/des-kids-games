@@ -75,6 +75,16 @@ export const GAMES: Game[] = [
     ready: true,
   },
   {
+    slug: 'rings',
+    name: { en: 'Rings', hr: 'Prsteni' },
+    about: {
+      en: 'Move the rings onto the peg with the star.',
+      hr: 'Premjesti prstene na štap sa zvjezdicom.',
+    },
+    colour: '#b4532a',
+    ready: true,
+  },
+  {
     slug: 'robot',
     name: { en: 'Robot', hr: 'Robot' },
     about: {
