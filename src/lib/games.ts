@@ -139,7 +139,7 @@ export const GAMES: Game[] = [
     name: { en: 'Shadow', hr: 'Sjena' },
     about: {
       en: 'Sneak the ninja through the shadows.',
-      hr: 'Provedi ninđu kroz sjenu do blaga.',
+      hr: 'Provedi ninđu kroz sjenu.',
     },
     colour: '#3b4f8c',
     ready: true,
