@@ -161,7 +161,7 @@ export const GAMES: Game[] = [
       en: 'Each number once in every row and column.',
       hr: 'Svaki broj jednom u svakom retku i stupcu.',
     },
-    colour: '#3056d3',
+    colour: '#a51d9c',
     ready: true,
   },
   {
@@ -171,7 +171,7 @@ export const GAMES: Game[] = [
       en: 'Spell the word, letter by letter.',
       hr: 'Složi riječ slovo po slovo.',
     },
-    colour: '#087f5b',
+    colour: '#2f8f1f',
     ready: true,
   },
   {
