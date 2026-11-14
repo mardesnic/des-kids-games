@@ -51,7 +51,7 @@ export const GAMES: Game[] = [
       en: 'Join the dots and fill the board.',
       hr: 'Spoji točkice i popuni ploču.',
     },
-    colour: '#8a4fd6',
+    colour: '#c2187f',
     ready: true,
   },
   {
@@ -121,7 +121,7 @@ export const GAMES: Game[] = [
       en: 'Get the robot to the battery.',
       hr: 'Dovedi robota do baterije.',
     },
-    colour: '#f08a24',
+    colour: '#e8590c',
     ready: true,
   },
   {
@@ -151,7 +151,7 @@ export const GAMES: Game[] = [
       en: 'Colour the squares and find the picture.',
       hr: 'Oboji kvadratiće i otkrij sliku.',
     },
-    colour: '#c2255c',
+    colour: '#e03131',
     ready: true,
   },
   {
@@ -171,7 +171,7 @@ export const GAMES: Game[] = [
       en: 'Spell the word, letter by letter.',
       hr: 'Složi riječ slovo po slovo.',
     },
-    colour: '#6b4fd8',
+    colour: '#087f5b',
     ready: true,
   },
   {
